@@ -1,8 +1,9 @@
-name := "play-silhouette-rest-mongo"
- 
+//name := "play-silhouette-rest-mongo"
+name := "iomarketbe"
+
 version := "1.0" 
 
-lazy val `play-silhouette-rest-mongo` = (project in file(".")).enablePlugins(PlayScala)
+lazy val `iomarketbe` = (project in file(".")).enablePlugins(PlayScala)
 
 scalaVersion := "2.12.3"
 
